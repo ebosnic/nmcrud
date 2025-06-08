@@ -21,7 +21,7 @@ app.use("/api/products", productRoute);
 
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://boadbu:0ILOB0E8bsBOCSY8@boaacluster.ftvhewc.mongodb.net/?retryWrites=true&w=majority&appName=boaacluster")
+mongoose.connect("mongodb+srv://dbusernamegoeshere:dbpasswordgoeshere@yourclusterendpointgoesherecluster.ftvhewc.mongodb.net/?retryWrites=true&w=majority&appName=clusternamegoeshere")
 .then(() => {
 	console.log("Connected to the DataBase");
 // start the server
